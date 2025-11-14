@@ -14,7 +14,7 @@ Phase 4 focuses on establishing Layer 3 connectivity between the two aggregation
 
 ### Switch 1 - TOR-AGGR-SW1
 
-'''cisco
+```cisco
 !Create Layer 3 Port-Channel 1
 interface Port-channel1
 !Set description
@@ -45,7 +45,7 @@ end
 
 ### Switch 2 - TOR-AGGR-SW2
 
-'''cisco
+```cisco
 !
 configure terminal
 !
@@ -75,8 +75,7 @@ description Member_of_Po1_to_TOR-AGGR-SW1_Gig2/3
 !
 end
 !
-
-'''
+```
 
 ### Verification Commands for both switches
 
