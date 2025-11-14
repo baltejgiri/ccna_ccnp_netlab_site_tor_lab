@@ -1,6 +1,6 @@
 ---
 # YAML fontmatter for static site generator is created to publish this file as a blog post.
-title: Enterprise Network Lab: Phase 3 - Aggregation Layer Advanced Configuration
+title: "Enterprise Network Lab: Phase 3 - Aggregation Layer Advanced Configuration"
 author: "Baltej Giri"
 date: 2025-11-13
 category: Networking, CCNA, CCNP

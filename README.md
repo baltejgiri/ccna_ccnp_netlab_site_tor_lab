@@ -4,7 +4,7 @@
 This project involves setting up a comprehensive enterprise network lab environment using Cisco devices and protocols. The lab is designed to help learners gain hands-on experience with various networking concepts, including access layer configuration, aggregation layer setup, core layer design, routing protocols, and cloud integration.
 
 ## Network Topology
-![Network Topology](/images/network_topology.png)
+![Network Topology](/network_topology.png)
 
 ## Project Goals
 - To build a scalable and redundant enterprise network.
