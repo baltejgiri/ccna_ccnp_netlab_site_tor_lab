@@ -13,6 +13,8 @@ layout: post  # Example metadata for a static site generator
 Phase 4 focuses on establishing Layer 3 connectivity between the two aggregation layer switches, TOR-AGGR-SW1 and TOR-AGGR-SW2, using a routed Port-Channel (EtherChannel) with LACP protocol. This setup enhances redundancy and bandwidth between the aggregation switches. As always, validate configurations with verification commands before saving the configuration on switches.
 
 ### Switch 1 - TOR-AGGR-SW1
+
+'''cisco
 !Create Layer 3 Port-Channel 1
 interface Port-channel1
 !Set description
@@ -39,9 +41,11 @@ description Member_of_Po1_to_TOR-AGGR-SW2_Gig2/3
 !
 end
 !
+'''
 
 ### Switch 2 - TOR-AGGR-SW2
 
+'''cisco
 !
 configure terminal
 !
@@ -71,6 +75,8 @@ description Member_of_Po1_to_TOR-AGGR-SW1_Gig2/3
 !
 end
 !
+
+'''
 
 ### Verification Commands for both switches
 
