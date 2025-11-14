@@ -1,5 +1,5 @@
 ---
-### YAML fontmatter for static site generator is created to publish this file as a blog post.
+# YAML fontmatter for static site generator is created to publish this file as a blog post.
 title: Enterprise Network Lab: Phase 3 - Aggregation Layer Advanced Configuration
 author: "Baltej Giri"
 date: 2025-11-13
@@ -10,7 +10,9 @@ layout: post  # Example metadata for a static site generator
 
 # Phase 3 - Aggregation Layer Advanced Configuration
 
-This configuration focuses on enabling IP routing and setting up HSRP (Hot Standby Router Protocol) on both aggregation layer switches "TOR-AGGR-SW1" and "TOR-AGGR-SW2". HSRP will provide high availability for the default gateways of VLANs 10, 20, 30, and 40. The configuration includes setting up active and passive roles for each VLAN across the two switches, along with authentication for security. Finally, verification commands are included to check the HSRP status.
+This configuration focuses on enabling IP routing and setting up HSRP (Hot Standby Router Protocol) on both aggregation layer switches "TOR-AGGR-SW1" and "TOR-AGGR-SW2". HSRP will provide high availability for the default gateways of VLANs 10, 20, 30, and 40. 
+
+The configuration includes setting up active and passive roles for each VLAN across the two switches, along with authentication for security. Finally, verification commands are included to check the HSRP status.
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-### YAML fontmatter for static site generator is created to publish this file as a blog post.
+# YAML fontmatter for static site generator is created to publish this file as a blog post.
 title: "Enterprise Network Phase 1 - Access Layer Configuration"
 author: "Baltej Giri"
 date: 2025-11-13
